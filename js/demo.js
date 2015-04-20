@@ -1,9 +1,30 @@
+$(document).ready(function(){
+	var $window = $(window);
+       $stickyEl = $('.wrapper');
+       elTop = $stickyEl.offset().top;
+       
+        $window.scroll(function() {
+        $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop).promise().done(function(){
+        	
+        	
+        	
+        });
+	
+	
+	
+	});
+	
+	
+	
+
 $(window).load(function(){
+	
+	
 	$('#slider').ccslider({
     effectType: '2d',
     effect: 'horizontalSlide',
     _3dOptions: {
-                  imageWidth: 1100,
+                  imageWidth: 1270,
                   imageHeight: 400,
                   innerSideColor: '#444',
                   transparentImg: false,
@@ -44,6 +65,13 @@ $(window).load(function(){
 		$('#no-3d').show();
 	}
 		
+	
+	
+	
+
+	
+  
+  });
 	
 
 

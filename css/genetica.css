@@ -1,7 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(penna.otf);
+}
+
 body {
-background-image: url("imagenes/fondoUno.jpg");
+background: -webkit-linear-gradient(left, rgba(15,180,231,1) 9%,rgba(169,228,247,1) 50%,rgba(15,180,231,1) 59%);
+
 }
 
 section{
@@ -11,7 +17,8 @@ section{
 }
 
 .modulo{
-
+	
+margin-left:50px;
 text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
@@ -21,10 +28,10 @@ text-transform: uppercase;
   font-weight: 300; 
   position: relative; 
   display:inline-block;
-  top:0%; right:0; bottom:0; left:23%; 
+  top:100px; right:0; bottom:0; left:0.5%; 
   padding: 20px 0;
-  width: 220px;
-  height:200px;
+  width: 350px;
+  height:270px;
   background: #0D6;
   border: 1px solid #0D6;
   color: #FFF;
@@ -89,8 +96,7 @@ text-transform: uppercase;
 
 
 #modular{
-	margin-top:2.8em;
-	
+ 
 	left:0%;
 	position:relative;
 	height: 30%;	
@@ -109,18 +115,20 @@ text-transform: uppercase;
 #modularDos{
 	position: relative;
 	width: 100%;
-	height: 200px;
+	
 	
 }
 
 .button{
-	height:2em;
-	padding:15px 50px;
+	
+	position:relative;
+	height:12em;
+	padding:0px 100px;
 	margin:20px 10px;
 	cursor:pointer;
 	display:inline-block;
 	position:relative;
-	 top:80%; right:0; bottom:0; left:19%; 
+	 top:80%; right:0; bottom:0; left:7%; 
 	color:#FFF;
 	font-size:1em;
 	border:1px solid #eee;
@@ -164,7 +172,7 @@ text-transform: uppercase;
 	background: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 50%,rgba(255,255,255,0) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
     padding: 1px 9px;
-    top: -16px;
+    top: 0px;
     left: -53px;
     height: 0px;
 }
@@ -264,13 +272,7 @@ text-transform: uppercase;
  * 	Green Background
  **********************************************************************/
 .green{
-	background: #cdeb8e; /* Old browsers */
-	background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #cdeb8e 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #cdeb8e 0%,#a5c956 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #cdeb8e 0%,#a5c956 100%); /* IE10+ */
-	background: linear-gradient(top, #cdeb8e 0%,#a5c956 100%); /* W3C */
+	background: -webkit-linear-gradient(left, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
 }
 
@@ -348,13 +350,8 @@ text-transform: uppercase;
  * 	Blue Background
  **********************************************************************/
 .blue{
-	background: #7abcff; /* Old browsers */
-	background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
-	background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+
+background: -webkit-linear-gradient(left, rgba(214,233,209,1) 0%,rgba(184,221,173,1) 17%,rgba(128,197,103,1) 50%,rgba(97,193,65,1) 51%,rgba(117,210,74,1) 59%,rgba(142,236,84,1) 71%,rgba(105,193,65,1) 84%,rgba(61,141,43,1) 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
 }
 
@@ -385,3 +382,327 @@ text-transform: uppercase;
 	background: linear-gradient(left, rgba(203,96,179,1) 0%,rgba(173,18,131,1) 50%,rgba(222,71,172,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 */
 }
+
+
+
+/*menus contacto */
+
+
+
+.items{
+	display:none;
+background: -webkit-linear-gradient(left, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%);
+	height: 340px;
+	width: 700px;
+	position:absolute;
+	left:0%;
+	top:5%;
+	bottom:0%;
+	z-index: 9;
+border: 3px rgb(148, 148, 148) inset;
+
+-moz-box-shadow:  4px 11px 33px 10px rgb(0, 0, 0);
+-webkit-box-shadow:  4px 11px 33px 10px rgb(0, 0, 0);
+box-shadow:  4px 11px 33px 10px rgb(0, 0, 0);
+	
+	
+	
+}
+
+
+#imagenUno{
+		background:url(imagenes/itemUno.JPG);
+	 background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 7;
+	
+	
+}
+
+#imagenUno.hover{
+opacity: .9;
+	
+	
+}
+
+.container {
+    position:relative;
+    width:225px;
+    height:52px;
+    padding:20px 10px 0;
+    margin:100px auto 10px;
+    text-align:center;
+    background:rgba(255, 255, 255, 0.7);
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:0px 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#uibutton {
+	height:187px;
+    display:inline-block;
+    width:250px;
+    padding:5px 10px;
+    border-top:1px solid #96d1f8;
+    color:#fff;
+    border-radius:8px;
+    box-shadow:rgba(0,0,0,1) 0 1px 0;
+    text-shadow:rgba(0,0,0,.4) 0 1px 0;
+    text-decoration:none;
+    background:#65a9d7;
+    background-repeat:no-repeat;
+    background-image:-webkit-linear-gradient(
+        top left,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0.0) 50%
+    ),
+    -webkit-linear-gradient(
+        #3e779d, #65a9d7
+    );
+    background-image:-moz-linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0.0) 50%
+    ),
+    -moz-linear-gradient(
+        #3e779d, #65a9d7
+    );    
+    background-image:-o-linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0.0) 50%
+    ),
+    -o-linear-gradient(
+        #3e779d, #65a9d7
+    );
+    background-image:linear-gradient(
+        0 0,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.2) 37%,
+        rgba(255, 255, 255, 0.8) 45%,
+        rgba(255, 255, 255, 0.0) 50%
+    ),
+    linear-gradient(
+        #3e779d, #65a9d7
+    );
+    background-position:-100px -100px, 0 0;
+    -moz-background-size:250% 250%, 100% 100%;
+         background-size:250% 250%, 100% 100%;
+    -webkit-transition:background-position 0s ease;
+       -moz-transition:background-position 0s ease;       
+         -o-transition:background-position 0s ease;
+            transition:background-position 0s ease;
+}
+
+#uibutton:hover,
+#uibutton:focus {
+    color:#fff;
+    background-position:0 0, 0 0;
+    -webkit-transition-duration:0.5s;
+       -moz-transition-duration:0.5s;
+            transition-duration:0.5s;
+            -webkit-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     -khtml-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+       -moz-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+         -o-box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+            box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+}
+
+#uibutton:active {
+    top:1px;   
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+.wrapper {
+  margin: 0px;
+  font-family:myFirstFont;
+	position:absolute;
+z-index: 12;
+bottom:52.5%;
+width: 99%;
+}
+
+/* BEGIN: Общие стили */
+.menu,
+.sub-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.menu li {
+	z-index:8;
+background: -webkit-linear-gradient(left, rgba(137,196,0,1) 0%,rgba(137,196,0,1) 25%,rgba(137,196,0,1) 25%,rgba(137,196,0,1) 46%,rgba(137,196,0,1) 86%,rgba(137,196,0,1) 100%);
+  cursor: pointer;
+  position: relative;
+  transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  -webkit-transition: background-color .5s;
+  /* IE lt 10, Chrome lt 1, Opera lt 11.6, Safari lt 3, FF lt 4, Android lt 2.1 и iOS lt 2.0 не поддерэивают transition. */
+}
+
+.menu li:hover {
+  background-color: #353B41 !important; /* .menu > li.home может иметь больше приоритета. Поэтому. */
+ 
+}
+
+.menu a {
+  color: #FFF;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.menu a:hover {
+  /* Защита от простого a:hover. */
+  color: black;
+}
+/* END: Общие стили */
+
+/* BEGIN: Главное меню */
+.menu {
+  /* Рекомендуется задать высоту главного меню именно отсюда. */
+  height: 90px;
+}
+
+.menu > li {
+  float: left;
+  height: 50%;
+  width: 15%; /* Мудакам которые не поддерживают calc. */
+  width: calc((100% - 90px) / 5);
+  width: -moz-calc((100% - 90px) / 5);
+  width: -webkit-calc((100% - 90px) / 5);
+  /* IE lt 9, Chrome lt 19, Opera lt 15, Safari lt 6, FF lt 4, Android и iOS не поддерэивают calc. */
+}
+
+.menu li:hover{
+   span{
+   	color:blue;
+   }
+}
+
+.menu > li.home {
+background: -webkit-linear-gradient(top, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+  width: 90px;
+}
+
+.menu > li.current {
+  background-color: #F2762E !important; /* !important VS .menu li:hover */
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  /* IE lt 9, Chrome lt 1, Opera lt 10.5, Safari lt 3, FF lt 3.5, Android lt 2.1 и iOS lt 2.0 не поддерэивают box-shadow. */
+}
+
+.menu > li:not(:first-child) {
+  box-shadow: inset 1px 0 0 0 #272B31, inset 2px 0 0 0 #434A52;
+  -moz-box-shadow: inset 1px 0 0 0 #272B31, inset 2px 0 0 0 #434A52;
+  -webkit-box-shadow: inset 1px 0 0 0 #272B31, inset 2px 0 0 0 #434A52;
+}
+
+.menu > li.home > a {
+  color: transparent !important;
+}
+
+.menu > li > a > span {
+  left: 0; /* Селектор .menu a выравнивает содержимое по центру, из-за чего span начинается от центра. Исправляем. */
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  /* IE lt 9, Chrome lt 5, Opera lt 10.5, Safari lt 3.1, FF lt 3.5, Android lt 2.1 и iOS lt 2.0 не поддерэивают transform. */
+}
+/* END: Главное меню */
+
+/* BEGIN: Подменю */
+.sub-menu {
+  max-height: 0;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  transition: max-height .5s .2s;
+  -moz-transition: max-height .5s .2s;
+  -o-transition: max-height .5s .2s;
+  -webkit-transition: max-height .5s .2s;
+}
+
+
+
+li:hover > .sub-menu {
+  max-height: 600px;
+}
+
+.sub-menu li {
+  height: 60px;
+}
+
+
+
+.sub-menu a {
+  line-height: 60px;
+  transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
+  -webkit-transition: color .5s;
+  white-space: nowrap;
+}
+
+.sub-menu li.current a,
+.sub-menu a:hover {
+  color: #F2762E !important; /* !important VS .menu a:hover */
+}
+
+
+
+.wrapper.sticky{
+		position: fixed;
+     top: 0;
+	}
+	
+	footer{
+		position:relative;
+		height: 300px;
+		width: 100%;
+	}	
+.informativos{
+	height:400px;
+	width:800px;
+	position:absolute;
+	z-index: 11;
+	left:20%; right:0%; top:20%; bottom: 0%;
+	background: -webkit-linear-gradient(top, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%);
+	border-color: blue;
+	display: inline;
+	display: none;
+	
+}
+
+
