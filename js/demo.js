@@ -14,6 +14,14 @@ $(document).ready(function(){
 	
 	});
 	
+	$("#contacto").hover(function() {
+		
+		
+		
+		
+	}, function() {
+		
+	});
 	
 	
 
@@ -45,15 +53,15 @@ $(window).load(function(){
     startSlide: 0,
     directionNav: true,
     controlLinks: true,
-    controlLinkThumbs: false,
+    controlLinkThumbs: true,
     controlThumbLocation: '',
     autoPlay: true,
-    pauseTime: 3000,
-    pauseOnHover: true,
+    pauseTime: 2000,
+    pauseOnHover: false,
     captions: true,
     captionPosition: 'bottom',
     captionAnimation: 'slide',
-    captionAnimationSpeed: 600,
+    captionAnimationSpeed: 700,
     beforeSlideChange: function(index){},
     afterSlideChange: function(index){}
 });

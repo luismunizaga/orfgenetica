@@ -4,7 +4,9 @@
 
 	background: #fff url(../images/loading.gif) center center no-repeat;
 	z-index: 10;
-	left:0%;
+	left:-5px;
+	top:10px;
+	
 	width: 100%;
 	
   
@@ -12,17 +14,19 @@
 }
 
 .slider3d {
-	width: 1270px !important;
+	width: 1290px !important;
 	height: 400px !important;
-	margin: 0px auto 40px auto;
+	margin: 0;
+	left:0%;
 	
 	
 }
 
 .slider2d {
-	width: 1270;
+	width: 100%;
 	height: 400px;	
-	
+
+	width: 100%;
 }
 
 
@@ -38,12 +42,13 @@ a.slider-nav {
 
 .slider-nav.prev {
 	background: url(../images/left-arrow.png) no-repeat;
-	left: 0px;
+
+   
 }
 
 .slider-nav.next {
-	background: url(../images/right-arrow.png) no-repeat;
-	right: 0px;
+	background: url(../images/small-right-arrow.png) no-repeat;
+	
 }
 
 .slider-timer {
